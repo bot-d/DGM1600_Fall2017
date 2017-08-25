@@ -3,3 +3,4 @@ if i do this it messes with git kraken operations too right?
 so then what if i decide to create a new branch?
 cool! this has been a success! i think i understand how this works now.
 next we will add another .txt file for raining cats
+git rm "branchtest2"
