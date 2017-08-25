@@ -2,4 +2,8 @@ all work and no play
 if i do this it messes with git kraken operations too right?
 so then what if i decide to create a new branch?
 cool! this has been a success! i think i understand how this works now.
-well that was bad.....
+
+revision to contents:
+the homework has progressed excessively and astronomers predict a gitforcast of raining cats!
+
+cancellation, due to tremendous mess ups and misunderstanding, we are going back to the simple things like editing and opening and closing branches 
