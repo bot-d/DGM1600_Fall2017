@@ -1,0 +1,20 @@
+//Variables are the like a capsule from dragon ball z. The reasoning behind this is that inside it just as any container, it holds what is inside, in a video game it could be a power-up, ammo, health, anything.
+//Variables can be locked, this lock would be listing the variable as, "private." Or you can unlock it by listing it, "public" here's an example below
+    
+    private int ammo = "5" 
+
+//furthermore, if you do not specify wether the variable is private or public, the default sets it to private, like this.
+
+	int ammoPack = “5”
+
+//if we want to make the variable a portion of something, like a health bar or mana, then we must use the appropriate kind of variable, in this case, “float,” which defines the perameters of the variable, defining the percentage. for example….
+
+	public healthbar float = .5f
+
+//there are other kinds of variables too, one of such is int which we used before, this variable does the opposite of float, it defines only whole numbers a.k.a., “integers.”
+ 
+	public int grenades = 10
+
+//Lastly we have a “string,” which simply includes data, words, information, etc.
+
+	public string “this assignments now complete…. maybe not perfect at all…. but complete.”
