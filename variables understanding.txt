@@ -1,0 +1,4 @@
+//Variables are the like a capsule from dragon ball z. The reasoning behind this is that inside it just as any container, it holds what is inside, in a video game it could be a power-up, ammo, health, anything.
+//Variables can be locked, this lock would be listing the variable as, "private." Or you can unlock it by listing it, "public" here's an example below
+    
+    private int ammo = "5" 
