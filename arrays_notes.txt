@@ -1,0 +1,206 @@
+Arrays are a way of containing multiple variables in one place all at the same time.
+They allow for easy storage and handling especially in game play where items can be picked up. After being picked up the items go to a previously assigned key, often 1-0. Speaking of zero, no matter how many variables you have in the array, it always needs to have the first place holder as “0” Within the arrays we can store information about items, what they are, their thumb image, model, ammo allotment, and other useful things. Like variables and other coding types they can be used in integers, strings, floats, etc. As well, they need classifications like what they are, “brown eggs v.s. white eggs.
+
+
+explanation with examples:
+
+
+variable: <----------------------creates variable
+public int steve = 1; <----------states privacy and names variable
+Array: <-------------------------states array is in place
+public brown[] eggs; <-----------classify type
+= new brown[12];  <--------------state how many in the variable
+eggs[3]	<------------------------stating which egg to replace	
+	> ="good"; <-------------makes it good
+print(eggs [3]) <----------------eggs are made
+
+
+
+
+MORE EXAMPLES:
+
+
+public class Arrays : MonoBehaviour {
+
+	public string[] heros = new string[6];
+
+	// Use this for initialization
+	void Start () {
+		heros[0] = "Batman";
+		heros[1] = "Superman";
+		heros[2] = "Wolverine";
+		heros[3] = "Spiderman";
+		heros[4] = "Jean Gray";
+		heros[5] = "Martian Man-Hunter";
+
+		print(heros[3]);
+
+
+	public GameObject[] inventory = new GameObject[7];
+
+
+
+		inventory[0]= Bazooka;
+		inventory[1]= Uzi;
+		inventory[2]= P99;
+		inventory[3]= Famas;
+		inventory[4]= Sniper Rifle;		
+		inventory[5]= assault rifle;
+		inventory[6]= water gun;
+
+		print(inventory[0]);
+		print(inventory[1]);
+		print(inventory[2]);
+		print(inventory[3]);
+		print(inventory[4]);
+		print(inventory[5]);
+		print(inventory[6]);
+
+	public int[] dog = pound [5];
+		
+		dog[0]= German shepherd;
+		dog[1]= Dacshund;
+		dog[2]= Bulldog;
+		dog[3]= schnauzer;
+		dog[4]= Black Labrador;
+
+		print(dog[0]);
+		print(dog[1]);	
+		print(dog[2]);
+		print(dog[3]);
+		print(dog[4]);
+
+	public string[] ice-cream = new string[12];
+
+		ice-cream[0]=chocolate;
+		ice-cream[1]=vanilla;
+		ice-cream[2]=strawberry;
+		ice-cream[3]=banana;
+		ice-cream[4]=mudpie;
+		ice-cream[5]=mormon-moose;
+		ice-cream[6]=animator almond;
+		ice-cream[7]=gummy gophers;
+		ice-cream[8]=jabberwacki blood;
+		ice-cream[9]=peanut butter bullies;
+		ice-cream[10]=messick marshmallows;
+		ice-cream[11]=butter-scotch booty;
+
+		print(ice-cream[10]);
+		print(ice-cream[6]);
+		print(ice-cream[8]);
+		print(ice-cream[5]);
+		print(ice-cream[11]);
+
+	public string[] pokemon = new string[6];
+
+		pokemon[0]=bulbasaur;
+		pokemon[1]=mewtwo;
+		pokemon[2]=magikarp;
+		pokemon[3]=missing no.;
+		pokemon[4]=gengar;
+		pokemon[5]=luxray;
+		
+		print(pokemon[0]);
+		print(pokemon[1]);
+		print(pokemon[2]);
+		print(pokemon[3]);
+		print(pokemon[4]);
+		print(pokemon[5]);
+
+	public GameObject[] inventory = new GameObject[4];
+
+
+
+		inventory[0]= pokeball;
+		inventory[1]= cell phone;
+		inventory[2]= 3DS;
+		inventory[3]= wallet;
+		
+		print(inventory[0]);
+		print(inventory[1]);
+		print(inventory[2]);
+		print(inventory[3]);
+		
+	public string[] family = new string[6];
+
+		family[0]=matt;
+		family[1]=jenn;
+		family[2]=braden;
+		family[3]=brock;
+		family[4]=brianna;
+		family[5]=braxton;
+		
+		print(family[0]);
+		print(family[1]);
+		print(family[2]);
+		print(family[3]);
+		print(family[4]);
+		print(family[5]);
+
+	public int[] soda = soda machine [5];
+		
+		soda[0]= creme soda;
+		soda[1]= Dr. Pepper;
+		soda[2]= Vanilla Cocacola;
+		soda[3]= mt. dew;
+		soda[4]= water bottle;
+
+		print(soda[0]);
+		print(soda[1]);	
+		print(soda[2]);
+			
+	public int[] or scenario = coke or pepsi [2];
+		
+		or scenario[0]= toilet paper in back;
+		or scenario[1]= toilet paper in front;
+
+		print(or scenario[1]);
+
+	public GameObject[] surprise box = new GameObject[5];
+
+
+
+		surprise box[0]= brownie;
+		surprise box[1]= disembodied hand;
+		surprise box[2]= moth;
+		surprise box[3]= revolver;
+		surprise box[4]= nuke;
+
+
+		print(surprise box[0]);
+		print(surprise box[1]);
+		print(surprise box[2]);
+		print(surprise box[3]);
+		print(surprise box[4]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
+
+
