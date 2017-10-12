@@ -301,6 +301,8 @@ GameObject:
   - component: {fileID: 1280545466}
   - component: {fileID: 1280545467}
   - component: {fileID: 1280545468}
+  - component: {fileID: 1280545469}
+  - component: {fileID: 1280545470}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -369,7 +371,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280545463}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f192e9271f151234aaefbe08fe7510ff, type: 3}
   m_Name: 
@@ -379,6 +381,31 @@ MonoBehaviour:
   leia: 0
   darkSide: Darth Maul
   lightSide: Padmae
+  num1: 10
+  num2: 10.5
+--- !u!114 &1280545469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280545463}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eacd7af694f18848aa3a4a65f872a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserBlast: 299
+--- !u!114 &1280545470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280545463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef6570354b38884891d7bdb73e0e646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2028597402
 GameObject:
   m_ObjectHideFlags: 0
